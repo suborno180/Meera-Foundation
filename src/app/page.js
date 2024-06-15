@@ -12,7 +12,9 @@ import FourBoxSection from "./components/fourBoxSection";
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <Swiper />
+      <div className="container mx-auto">
+        <Swiper />
+      </div>
       <IntroContainer />
       <IntroBigBanner />
 

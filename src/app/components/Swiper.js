@@ -28,30 +28,30 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-[500px] w-screen max-md:h-[245px]"
+        className="mySwiper aspect-video w-full max-md:h-[245px]"
         style={{
           '--swiper-navigation-color': '#27AB61',
         }}
       >
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide1.jpg'} alt="slideimg1" fill={true} />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide2.png'} alt="slideimg2" fill={true} />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/firstslide4.jpg'} fill={true} alt="slideimg3" />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide5.jpg'} fill={true} alt="slideimg5" />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide6.png'} fill={true} alt="slideimg6" />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide8.png'} fill={true} alt="slideimg7" />
         </SwiperSlide>
-        <SwiperSlide className="h-[500px] w-screen max-md:h-[240px]">
+        <SwiperSlide className="aspect-video w-full max-md:h-[240px]">
           <Image src={'/frontslide9.png'} fill={true} alt="slideimg8" />
         </SwiperSlide>
       </Swiper>
