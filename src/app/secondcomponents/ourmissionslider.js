@@ -9,19 +9,6 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-import boyreview1 from "./../../../public/boyreview1.png"
-import boyreview2 from "./../../../public/boyreview2.png"
-import boyreview3 from "./../../../public/boyreview3.png"
-import boyreview4 from "./../../../public/boyreview4.png"
-import boyreview5 from "./../../../public/boyreview5.png"
-import boyreview6 from "./../../../public/boyreview6.png"
-
-import girlreview1 from "./../../../public/girlreview1.png"
-import girlreview2 from "./../../../public/girlreview2.png"
-import laddyreview1 from "./../../../public/laddyreview1.png"
-
-
 // import required modules
 import { Keyboard, Scrollbar, Navigation, Pagination,Autoplay } from 'swiper/modules';
 
@@ -62,7 +49,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-                <Image src={boyreview1} alt="rahul dubay" fill={true}/>
+              <Image src={'/boyreview1.png'} alt="rahul dubay" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -82,7 +69,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={boyreview2} alt="rajiv malik" fill={true}/>
+                <Image src={'/boyreview2.png'} alt="rajiv malik" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -101,7 +88,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={girlreview1} alt="peoplebtrust3" fill={true}/>
+                <Image src={'/girlreview1.png'} alt="peoplebtrust3" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -120,7 +107,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={boyreview3} alt="mohan singh" fill={true}/>
+               <Image src={'/boyreview3.png'} alt="mohan singh" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -139,7 +126,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-                <Image src={girlreview2} alt="anita choudhaury" fill={true}/>
+               <Image src={'/girlreview2.png'} alt="anita choudhaury" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -158,7 +145,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={boyreview4} alt="govind tiwari" fill={true}/>
+                <Image src={'/boyreview4.png'} alt="govind tiwari" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -177,7 +164,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={boyreview5} alt="santosh kumar" fill={true}/>
+                <Image src={'/boyreview5.png'} alt="santosh kumar" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -196,7 +183,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-                <Image src={laddyreview1} alt="sunita das" fill={true}/>
+                <Image src={'/laddyreview1.png'} alt="sunita das" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
@@ -215,7 +202,7 @@ export default function App() {
     <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800" >
         <div class="w-auto pt-1 pb-5">
             <div class="overflow-hidden rounded-full w-20 h-20  mx-auto shadow-lg relative">
-            <Image src={boyreview6} alt="vivek pillai" fill={true}/>
+                <Image src={'/boyreview6.png'} alt="vivek pillai" fill={true}/>
             </div>
         </div>
         <div class="w-full mb-10">
