@@ -3,3 +3,14 @@
 @tailwind utilities;
 
 
+.swiper-button-prev,
+.swiper-button-next {
+    background: #1aa74e;
+    padding: 3px;
+    border-radius: 5px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #fdfdfd;
+    font-size: 20px !important;
+}
