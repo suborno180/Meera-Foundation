@@ -12,7 +12,7 @@ import FourBoxSection from "./components/fourBoxSection";
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <Swiper />
+      {/* <Swiper /> */}
       <IntroContainer />
       <IntroBigBanner />
 
@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* <TextContentSection/> */}
       <FourBoxSection />
-      {/* <DownToUp /> */}
+      <DownToUp />
       <HeroWithImage />
       <TestiMonials />
     </main>
