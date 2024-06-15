@@ -35,8 +35,6 @@ export default async function Whatwedo() {
           </div>
         </div>
       </div>
-
-      <ImagesPage />
     </>
   );
 }
