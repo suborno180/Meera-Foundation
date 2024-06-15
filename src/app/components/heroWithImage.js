@@ -29,17 +29,17 @@ export default function HeroWithImage() {
                     {/* <!-- Text Wrapper --> */}
                     <div className="flex flex-col p-12 md:px-16">
                         <h2 className="text-2xl font-medium uppercase text-[#27AB61] lg:text-3xl font-tittle">
-                            {" "}
-                            Preserve Protect Prosper Building a Beautiful Future with Nature{" "}
+                            
+                           {`Preserve Protect Prosper Building a Beautiful Future with Nature`}
                         </h2>
                         <p className="mt-4 text-black font-tittle">
-                            In a world where the delicate balance of nature is constantly
+                           {` In a world where the delicate balance of nature is constantly
                             under threat our foundation stands as a beacon of hope Through
                             dedicated preservation efforts vigilant protection and sustainable
                             practices we pave the way for a future where humanity and nature
                             thrive in harmony Join us in our mission to safeguard our planets
                             precious ecosystems and ensure a legacy of prosperity for
-                            generations to come
+                            generations to come`}
                         </p>
                     </div>
                 </div>

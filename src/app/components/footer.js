@@ -16,8 +16,8 @@ export default function Footer() {
                 />
               </div>
               <p className="max-w-xs mt-4 text-sm text-[#2e2e2e] font-tittle">
-                Where every struggle finds a helping hand, and every dream finds
-                wings to soar
+               {` Where every struggle finds a helping hand, and every dream finds
+                wings to soar`}
               </p>
               <div className="flex mt-8 space-x-6 text-gray-600">
                 <Link

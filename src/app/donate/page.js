@@ -9,7 +9,7 @@ export default function ProvideHelp(){
           <div class="mb-4">
             <div class="mb-6 max-w-4xl text-center sm:text-center md:mx-auto md:mb-12">
              
-              <h2 class="font-heading mb-4 font-bold tracking-tight text-[#24AB61] text-[#27AB61] text-5xl sm:text-5xl font-tittle">
+              <h2 class="font-heading mb-4 font-bold tracking-tight text-[#27AB61] text-5xl sm:text-5xl font-tittle">
               Hopeful donation illuminates path casts light              </h2> 
               {/* <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
                 In hac habitasse platea dictumst
