@@ -6,7 +6,7 @@ export default function ContactUs() {
           <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12 max-lg:w-[95%]">
              
-              <h2 className="font-heading mb-4 font-bold tracking-tight text-[#27AB61] text-[#27AB61] text-3xl sm:text-5xl font-tittle">
+              <h2 className="font-heading mb-4 font-bold tracking-tight text-[#27AB61] text-3xl sm:text-5xl font-tittle">
                 Contact for any support and helps
               </h2>
               {/* <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">

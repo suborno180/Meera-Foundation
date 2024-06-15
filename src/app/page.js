@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* <TextContentSection/> */}
       <FourBoxSection />
-      <DownToUp />
+      {/* <DownToUp /> */}
       <HeroWithImage />
       <TestiMonials />
     </main>
